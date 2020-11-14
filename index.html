@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Хорошие шашлыки</title>
+
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/skeleton.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet'
+        type='text/css'>
+
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+  </script>
+  <script src="maps.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Хорошие шашлыки с друзьями!</h1>
+
+  <div>
+    <div class="six columns">
+      <h3>20 ноября 2020 года</h3>
+      <p><em>Екатеринбург, Гамаюн</em></p>
+      <img alt="[Шашлыки]" class="u-max-full-width" src="bbq.jpg">
+      <p>А мы возьмем мотыля и пойдем на реку! Выступают все! Приводите друзей, будет весело</p>
+      <a class="button"
+         href="https://docs.google.com/forms/d/e/1FAIpQLScDiZsc0khRRJzHDZbiF3FdnY38UOy8lnsmrw5aIh0GQ2iX0A/viewform">Я
+        пойду</a>
+    </div>
+
+    <div class="six columns">
+      <div id="map" data-address='Екатеринбург, Верх-исетский пруд, Гамаюн' style="width: 100%; height: 400px"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
